@@ -7,8 +7,8 @@ public class MaxMinWithRandomArray {
         int a[] = new int[10];
         for (int i = 0; i < 10; i++) {
             a[i] = rn.nextInt(10);
-            if (i<9) System.out.print(a[i]+", "); //<--------- Output Data in Random Array            
-            else System.out.println(a[i]);        //<--------- Output last Data in Random Array
+            if (i<9) System.out.print(a[i]+", "); //<--------- Output Data in  Array            
+            else System.out.println(a[i]);        //<--------- Output last Data in Array
         }
        
         int max = a[0];
